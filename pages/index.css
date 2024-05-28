@@ -20,7 +20,7 @@
   box-sizing: border-box;
   background: #fff url("../images/background_header.svg") no-repeat center/cover;
   background-image: url(../images/background_header.svg);
-  background-position: center/cover;
+  background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -213,6 +213,10 @@
 }
 
 }
+
+
+ */
+
 
 
  */
