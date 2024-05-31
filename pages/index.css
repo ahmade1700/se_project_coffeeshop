@@ -100,15 +100,10 @@
   box-sizing: border-box;
 }
 
-.header__footer_column {
+.header__footer-column {
   display: flex;
   flex-direction: column;
   margin: 0;
-}
-.header__footer__column:nth-of-type(2) {
-  align-items: flex-end;
-  margin: 0;
-  margin-top: auto;
 }
 
 .header__footer_address {
