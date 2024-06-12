@@ -1,14 +1,16 @@
 .menu {
-  margin: 100px auto 0px;
+  margin: auto;
   height: 100vh;
   background-color: white;
   background-image: url(../images/background_menu.svg);
   background-size: cover;
-  display: block;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
 }
 
 .menu__title {
+  margin: 100px auto;
   max-width: 780px;
   font-family: "Inter";
   font-weight: 500;
@@ -17,22 +19,31 @@
 }
 
 .menu__subtitle {
-  margin-top: 24px;
+  margin: 24px auto;
   max-width: 720px;
   font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
+  align-self: center;
 }
 
 .menu__cards {
-  margin-top: 100px;
+  margin: 100px auto;
   display: flex;
-  justify-content: space-evenly;
-  max-width: 1180px;
+  justify-content: center;
+
+  flex-wrap: wrap;
 }
 
 .card {
   list-style-type: none;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:nth-of-type(2) {
+  margin-right: 100px;
 }
 
 .card__title {
@@ -40,10 +51,20 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 32px;
 }
 
 .card__list_item {
   font-family: "Noto Serif";
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
 }
