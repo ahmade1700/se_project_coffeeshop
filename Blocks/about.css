@@ -1,15 +1,27 @@
+@keyframes pulsate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 0.2;
+  }
+}
+
 .about {
   background-color: #0a2850;
-  padding: 40px;
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
 }
 
-.about_circle {
+.about__circle {
   width: 426px;
   height: 426px;
   background-color: #2f80ed;
@@ -19,10 +31,16 @@
   left: -129px;
   z-index: 0;
 }
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
 .about__content {
   font-family: "Noto Serif", serif;
   color: white;
-  padding-top: 119px;
+  margin-top: 119px;
+  margin-right: 80px;
+  margin-bottom: 173px;
 }
 .about__title {
   font-family: "Inter", sans-serif;
@@ -30,12 +48,13 @@
   font-size: 44px;
   line-height: 52px;
   color: white;
-  padding-top: 100px;
-  padding-left: 80px;
+  margin-top: 100px;
+  margin-left: 80px;
   max-width: 251px;
 }
 
 .about__paragraph {
+  font-family: "noto Serif";
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
