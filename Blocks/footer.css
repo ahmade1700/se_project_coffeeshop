@@ -43,12 +43,15 @@
 }
 
 .footer__social-link {
+  text-decoration: none;
   margin: 0;
   margin-bottom: 16px;
   font-family: "Inter";
   font-size: 16px;
   line-height: 20px;
-  padding: 0px;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-link:hover {

@@ -36,7 +36,7 @@
   animation: pulsate 1.3s ease-in-out infinite;
 }
 .about__content {
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   color: white;
   margin-top: 119px;
   margin-right: 80px;
@@ -57,8 +57,13 @@
   font-family: "noto Serif";
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
   margin-bottom: 20px;
   max-width: 660px;
+}
+
+.about__paragraph:last-of-type {
+  margin: 0;
 }
 
 .about__title,

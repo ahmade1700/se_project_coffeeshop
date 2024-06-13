@@ -9,6 +9,7 @@
 }
 
 .recipes__title {
+  margin: 0;
   max-width: 580px;
   margin-top: 100px;
   margin-left: 80px;
@@ -22,7 +23,8 @@
   margin-top: 24px;
   margin-left: 80px;
   max-width: 438px;
-  font-family: "Noto Serif";
+  font-weight: normal;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -39,17 +41,20 @@
 }
 
 .recipes__iframe {
+  display: block;
   width: 480px;
   height: 273px;
   border: 0;
 }
 
-.recipes__column:nth-of-type(2) {
+.recipes__column:last-of-type {
   margin-left: 40px;
 }
 
 .recipes__caption {
+  margin: 0;
   margin-top: 24px;
+  font-weight: 500;
   display: flex;
   justify-content: space-between;
 }
