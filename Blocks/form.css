@@ -7,6 +7,11 @@
   flex-direction: column;
   justify-content: center;
   border: 0;
+  padding: 0;
+}
+
+.form__fieldset:last-of-type {
+  margin-bottom: 120px;
 }
 
 .form__label {
@@ -16,6 +21,10 @@
   line-height: 20px;
 }
 
+.form__label:last-child {
+  margin: 0 auto;
+}
+
 .form__input {
   border-radius: 4px;
   margin-bottom: 32px;
@@ -23,6 +32,9 @@
   align-self: stretch;
   box-sizing: border-box;
   padding: 10px;
+}
+
+.form__label:last-of-type {
 }
 
 .form__input::placeholder {
@@ -52,7 +64,7 @@
 
 .form__checkbox {
   border-radius: 2px;
-  margin-right: 12px;
   width: 20px;
   height: 20px;
+  margin: 32px 12px 0px auto;
 }

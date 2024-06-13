@@ -36,14 +36,14 @@
   animation: pulsate 1.3s ease-in-out infinite;
 }
 .about__content {
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-family: "Noto Serif", Times, serif;
   color: white;
   margin-top: 119px;
   margin-right: 80px;
   margin-bottom: 173px;
 }
 .about__title {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -54,7 +54,7 @@
 }
 
 .about__paragraph {
-  font-family: "noto Serif";
+  font-family: "noto Serif", Times, serif;
   font-size: 20px;
   line-height: 30px;
   margin: 0;
