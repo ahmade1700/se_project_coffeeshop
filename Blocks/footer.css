@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-.footer_logo {
+.footer__logo {
   width: 105px;
   height: 39px;
   align-self: flex-start;
